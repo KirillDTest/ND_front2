@@ -1,0 +1,6 @@
+div#id1 > p {
+	color: blue;
+}
+#id1 + p {
+	color: red;
+}
