@@ -10,6 +10,10 @@
 	color: grey;
 	font-size: 20px;
 }
-div {
-	color: gold !important;./*выше в иерархии я не придумал*/
+#myid1.class1 {
+	color: gold;
+	font-size: 20px;
 }
+/*div {
+	color: gold !important;.выше в иерархии я не придумал
+}*/
