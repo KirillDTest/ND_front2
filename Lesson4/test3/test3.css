@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+}
+div {
+	background-color: hsl(0,100%,50%);
+	width: 50rem;
+	height: 50rem;
+}
+html {
+	font-size: 1vw;
+}
+
