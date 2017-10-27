@@ -10,3 +10,15 @@
 	color: grey;
 	font-size: 20px;
 }
+
+#myid1.class1 {
+	color: gold;
+	font-size: 20px;
+} /* sequence principal is used */
+
+div.#myid1.class1 {
+	color: gold;
+	font-size: 20px;
+} /* more significant selector */
+
+/* !important could be used also*/

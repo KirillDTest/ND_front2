@@ -1,0 +1,3 @@
+p:nth-of-type(n+2):nth-of-type(-n+3) {
+background: green;
+}
