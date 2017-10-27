@@ -1,17 +1,17 @@
 #red {
-	background-color: #ff0000;
+	background-color: rgb(255, 0, 0);
 }
 
 #blue {
-	background-color: #0000ff;
+	background-color: rgb(0, 0, 255);
 }
 
 #green {
-	background-color: #0f0;
+	background-color: rgb(0, 255, 0);
 }
 
 #purple {
-	background-color: #a0f;
+	background-color: rgba(170, 0, 255, 0.5);
 }
 
 div {

@@ -3,3 +3,9 @@
 	height: 200px;
 	background-color: rgb(0,100,220);
 }
+
+.child {
+	width: 50%;
+	height: 50%;
+	background-color: rgb(155,100,220);
+} /* changed child's background-color for clearence */
