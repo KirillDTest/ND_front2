@@ -1,0 +1,7 @@
+#id1 {
+	color: blue;
+}
+
+#id1 + p {
+	color: red;
+}

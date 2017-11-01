@@ -1,0 +1,86 @@
+.page_header{
+	position: relative;
+	height: 470px;
+	background-color: rgb(105,210,231);
+	border-top: 5px solid  rgb(250,105,0);
+}
+/* logo */
+
+.page_header .logo{
+	position: absolute;
+	top: 40px;
+	left: 100px;
+}
+
+.page_header .logo__img{
+	height: 48px;
+	width: 50px;
+	background: url("../img/logo.png") no-repeat;
+	position: absolute;
+}
+
+.page_header .logo__plus{
+	position: absolute;
+	top: -17px;
+	left: 10px;
+	color: rgb(255, 255, 255);
+	font-size: 57px;
+	font-weight: 700;
+}
+
+.page_header .logo__text_1,
+.page_header .logo__text_2{
+	width: 180px;
+	position: absolute;
+	left: 60px;
+}
+
+.page_header .logo__text_1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.page_header .logo__text_2{
+	font-size: 18px;
+	top: 27px;
+}
+
+/* nav */
+.page_header .nav-btn{
+	width: 41px;
+	height: 41px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 33px;
+	padding-top: 6px;
+	right: 100px;
+	border-radius: 50%;
+	border: 2px solid rgb(255, 255, 255);
+}
+
+.page_header .nav-btn__item{
+	width: 60%;
+	margin: 0 20%;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	padding-bottom: 5px;
+}
+/* title */
+.page_header .title-text{
+	width: 350px;
+	position: relative;
+	top: 150px;
+	left: 50%;
+	margin-left: -175px;
+	color: rgb(255, 255, 255);
+}
+
+.page_header .title-text_1{
+	font-size: 81px;
+	padding-left: 45px;
+	font-weight: bold;
+}
+
+.page_header .title-text_2{
+	font-size: 30px;
+	font-weight: bold;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+/* HEADER */
+.header{
+    position: relative;
+    height: 450px;
+    background-color: rgb(105,210,231);
+    border-top: 5px solid  rgb(250,105,0);
+}
+/* logo */
+
+.header .logo{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+
+.header .logo__img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(250,105,0);
+    position: absolute;
+}
+
+.header .logo__text_1,
+.header .logo__text_2{
+    width: 150px;
+    position: absolute;
+    left: 60px;
+}
+
+.header .logo__text_2{
+    top: 33px;
+}
+
+/* nav */
+.header .nav-btn{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+    right: 10%;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.header .nav-btn__item{
+    width: 60%;
+    margin: 0 20%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding: 2px 0;
+}
+/* title */
+.header .title-text{
+    width: 350px;
+    position: relative;
+    top: 150px;
+    left: 50%;
+    margin-left: -175px;
+    color: rgb(255, 255, 255);
+}
+
+.header .title-text_1{
+    font-size: 65px;
+    padding-left: 60px;
+}
+
+.header .title-text_2{
+    font-size: 30px;
+}
+
+/* ADVANTAGES */
+.advantages{
+    position: relative;
+    background-color: rgb(241,241,241);
+}
+
+.advantages-list{
+    width: 70%;
+    height: 450px;
+    margin: 0 15%;
+    position: relative;
+}
+
+.advantages-list__item{
+    width: 200px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.advantages-list__item_1{
+    left: -25px;
+}
+
+.advantages-list__item_2{
+    right: 50%;
+    margin-right: -100px;
+}
+
+.advantages-list__item_3{
+    right: -25px;
+}
+
+.advantages-list__img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px 25px;
+}
+
+.advantages-list__img_1{
+    background-color: rgb(255, 255, 255);
+}
+
+.advantages-list__img_2{
+    background-color: rgb(105,210,231);
+}
+
+.advantages-list__img_3{
+    background-color: rgb(255, 255, 255);
+}
+
+.advantages-list__text{
+   font-size: 25px;
+}
+
+/* ABOUT */
+.advantages .about{
+    width: 70%;
+    position: absolute;
+    top: -100px;
+    margin: 0 15%;
+    border-radius: 15px;
+    padding: 50px 25px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.advantages .about__title{
+    width: 300px;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+
+.advantages .about__title_box{
+    margin-left: 90px;
+}
+
+.advantages .about__text{
+    font-size: 23px;
+}

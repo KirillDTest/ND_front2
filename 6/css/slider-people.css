@@ -1,0 +1,73 @@
+.page_slider-people{
+	height: 532px;
+	position: relative;
+	background-color: rgb(241,241,241);
+}
+
+.page_slider-people .slider-people{
+	width: 668px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -334px;
+	text-align: center;
+}
+
+.page_slider-people .slider-people__box-img{
+	width: 178px;
+	height: 178px;
+	background-color: rgb(255,255,255);
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	margin-left: -89px;
+}
+
+.page_slider-people .slider-people__img{
+	position: relative;
+	top: 43px;
+}
+
+.page_slider-people .slider-people__name{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.page_slider-people .slider-people__rank{
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.page_slider-people .slider-people__text{
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+.page_slider-people .list-toggler{
+	margin-top: 50px;
+}
+
+.page_slider-people .list-toggler{
+	position: relative;
+	left: 50%;
+}
+
+.page_slider-people .list-toggler__item{
+	width: 18px;
+	height: 18px;
+	border: 2px solid #ffffff;
+	background-color:rgb(255,255,255);
+	border-radius: 50%;
+	position: absolute;
+}
+
+.page_slider-people .list-toggler__item_1{
+	background-color: rgb(105,210,231);
+	left: -28px;
+}
+
+.page_slider-people .list-toggler__item_3{
+	left: 28px;
+}

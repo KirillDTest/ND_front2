@@ -1,0 +1,50 @@
+.page_about-author{
+	background-color: rgb(250,105,0);
+	height: 532px;
+	position: relative;	
+	z-index: -2;
+	overflow: hidden;
+}
+
+.page_about-author .left{
+	width: 435px;
+	position: absolute;
+	top: 142px;
+	left: 100px;
+	color: rgb(255,255,255);
+}
+
+.page_about-author .left .title-page{
+	margin-bottom: 48px;
+	line-height: 1;
+}
+
+.page_about-author .left .title-page__text_1{
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.page_about-author .left .title-page__text_2{
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.page_about-author .left .description__item{
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 14px;	
+}
+
+.page_about-author .right{
+	position: absolute;
+	left: 50%;
+	top: -50%;
+	margin-top: 109px;
+	margin-left: -16px;	
+	width: 830px;
+	height: 830px;
+	border-radius: 50%;
+	background: rgb(255,255,255);
+	z-index: -1;
+	
+}
