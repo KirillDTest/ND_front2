@@ -1,0 +1,107 @@
+<!-- Так как я завалил задание по БЭМ (результат получил как на примере но не в соответствии
+ с БЭМ, как оказалось потом) - решил набросать что то пробуя пользоватся БЭМ, заодно попробовал не
+  использвоать position: absolute. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="BEM.css">
+	<title>BEM</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="contact">
+				<a class="contact__links contact__links_blue" href="">HOME</a>
+				<a class="contact__links" href="">ABOUT</a>
+				<a class="contact__links" href="">CONTACT</a>
+			</div> 
+		</div>
+		<div class="gtaphic-designer">
+			<div class="uiux">
+				<h1 class="uiux__text uiux__text_verdana">UI/UX & Graphic Designer</h1>
+				<p class="uiux__text"> I am graphic & web designer based in New York, specializing in user interface design and development.</p>
+			</div>
+		</div>
+		<div class="content">
+			<a class="photo photo_red" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="http://lsusmath.rickmabry.org/rmabry/knots/eschergraintrefoil-600x600.jpg">
+			</a>
+			<a class="photo photo_blue" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg">
+			</a>
+			<a class="photo photo_olive" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="http://www.spitzer.caltech.edu/uploaded_files/images/0009/6502/ssc2013-07b_Ti.jpg">
+			</a>
+			<a class="photo photo_yellow" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hazard_X.svg/600px-Hazard_X.svg.png">
+			</a>
+			<a class="photo photo_orange" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://www.opengear.net/logos/OG-V-B-600x600.png">
+			</a>
+			<a class="photo photo_grey" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://blog.ryantadams.com/wp-content/uploads/happy-face_happyface_smiley_600x600.jpg">
+			</a>
+			<a class="photo photo_blue" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="http://zoonooz.sandiegozoo.org/wp-content/uploads/2017/08/BorderTiger_006_Med-600x600.jpg">
+			</a>
+			<a class="photo photo_yellow" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="http://covers.phonica.s3.amazonaws.com/8a9406733de65c1f55cfd2dc054ab990.jpg">
+			</a>
+			<a class="photo photo_red" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://d1s0tkusspmg7p.cloudfront.net/wp-content/uploads/2015/12/566fe0a784719-fd084a352eb7a48dd30a3d2871728636-600x600.jpg">
+			</a>
+			<a class="photo photo_olive" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://d11m3yrngt251b.cloudfront.net/images/content/9/1/v4/91220.png">
+			</a>
+			<a class="photo photo_grey" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://d3bwu0f92zgi29.cloudfront.net/wp-content/uploads/2014/03/Sami-frontpage-e1394012410986-600x600.jpg">
+			</a>
+			<a class="photo photo_orange" href="https://www.google.com.ua/?gfe_rd=cr&dcr=0&ei=KJb8WfmZGOqv8wfMx7CADQ" target="_blank">
+				<img src="https://kuhniru.com/wp-content/uploads/2017/06/Krist_Bledno_Siren-600x600.jpg">
+			</a>
+		</div>
+		<div class="need-a-project">
+			<div class="project-text">
+				<h1 class="uiux__text_verdana">Need A Project?</h1>
+				<p class="uiux__text">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+			</div>
+			<a class="button" href="">
+				<div class="button__quad">
+					<p class="piroll__link">LET'S TALK</p>
+				</div>
+			</a>
+			
+		</div>
+		<div class="footer">
+			<div class="piroll">
+				<h1 class="piroll__text">Piroll Design, Inc.</h1>
+				<p class="piroll__text piroll__text_14px">©2017 Piroll. All rights reserved. Designed by robirurk.</p>
+			</div>
+			<div class="piroll piroll_left260px">
+				<p class="piroll__text piroll__text_14px">hello@pirolltheme.com</p>
+				<p class="piroll__text piroll__text_14px">+44987 065 908</p>
+			</div>	
+			<div class="piroll piroll_left400px">
+				<a class="piroll__link" href="">Progects</a>
+				<a class="piroll__link" href="">About</a>
+				<a class="piroll__link" href="">Servis</a>
+				<a class="piroll__link" href="">Carreer</a>
+			</div>
+			<div class="piroll piroll_left435px">
+				<a class="piroll__link" href="">News</a>
+				<a class="piroll__link" href="">Events</a>
+				<a class="piroll__link" href="">Contact</a>
+				<a class="piroll__link" href="">Legals</a>
+			</div>
+			<div class="piroll piroll_left520px">
+				<a class="piroll__link" href="">Facebook</a>
+				<a class="piroll__link" href="">Twitter</a>
+				<a class="piroll__link" href="">Instagram</a>
+				<a class="piroll__link" href="">Dribble</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

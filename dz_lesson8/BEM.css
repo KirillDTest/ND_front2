@@ -1,0 +1,173 @@
+* {
+	margin-top: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 1200px;
+	position: relative;
+	margin: auto;
+}
+.header {
+	width: 1200px;
+	height: 45px;
+	position: relative;
+	background-color: rgb(255,255,255);
+}
+.logo {
+	width: 45px;
+	height: 45px;
+	margin-left: 50px;
+	display: inline-block;
+	background-color: aqua;
+}
+.contact {
+	width: 220px;
+	height: 45px;
+	display: inline-block;
+	float: right;
+	margin-left: 805px;
+	margin-right: 70px;
+}
+.contact__links {
+	font-size: 13px;
+	font-family: 'Time New Roman';
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.contact__links_blue {
+	color: aqua;
+}
+.gtaphic-designer {
+	width: 1200px;
+	height: 400px;
+	background-color: rgb(245,245,245);
+}
+.uiux {
+	width: 354px;
+	height: 115px;
+	padding-left: 422px;
+	padding-top: 150px;
+
+}
+.uiux__text {
+	font-family: 'Times';
+	font-size: 14px;
+	text-align: center;
+}
+.uiux__text_verdana {
+	font-family: 'Verdana';
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.content {
+	width: 1200px;
+	height: 900px;
+	overflow: hidden;
+}
+.photo {
+	width: 297px;
+	height: 297px;
+	display: inline-block;
+	margin: 0px;
+	box-shadow: 0 0 15px 5px;
+}
+/*.photo_red {
+	background-color: red;
+}
+.photo_blue {
+	background-color: blue;
+}
+.photo_olive {
+	background-color: olive;
+}
+.photo_yellow {
+	background-color: yellow;
+}
+.photo_orange {
+	background-color: orange;
+}
+.photo_grey {
+	background-color: grey;
+}
+Изначально вместо картинок должны были находится просто цветные блоки*/
+img {
+	width: 297px;
+	height: 297px;
+}
+.need-a-project {
+	width: 1200px;
+	height: 300px;
+	position: relative;
+	background-color: rgb(255,255,255);
+}
+.project-text {
+	height: 107px;
+	width: 431px;
+	position: relative;
+	top: 50px;
+	left: 385px;
+}
+.button {
+	position: relative;
+	top: 77px;
+	left: 556px;
+	text-decoration: none;
+}
+.button__quad {
+	width: 87px;
+	height: 23px;
+	background-color: aqua;
+}
+.footer {
+	width: 1200px;
+	height: 250px;
+	background-color: rgb(30,30,30);
+	position: relative;
+}
+.piroll {
+	width: 195px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	top: 26px;
+	left: 45px;
+}
+.piroll__text {
+	font-size: 20px;
+	font-weight: 700px;
+	color: rgb(255,255,255);
+	padding-top: 45px;
+}
+.piroll__text_14px {
+	font-size: 14px;
+	padding-top: 0px;
+}
+.piroll_left260px {
+	left: 260px;
+	top: 10px;
+}
+.piroll_left400px {
+	left: 400px;
+	top: 40px;
+	width: 70px;
+}
+.piroll_left435px {
+	left: 435px;
+	top: 40px;
+	width: 70px;
+}
+.piroll_left520px {
+	left: 520px;
+	top: 40px;
+	width: 70px;
+}
+.piroll__link {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
