@@ -10,14 +10,14 @@
 	margin-left: -250px; 
 }
 
-.inside__logo {
+.logo {
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	background-color: white;
 }
 
-.inside__item {
+.item {
 	position: absolute;
 	width: 80px;
 	height: 40px;
@@ -25,14 +25,14 @@
 	top: 150px;
 }
 
-.inside__item_1 {
+.item_1 {
 	left: 50px;
 }
 
-.inside__item_2 {
+.item_2 {
 	left: 180px;
 }
 
-.inside__item_3 {
+.item_3 {
 	left: 310px;
 }
