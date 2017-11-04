@@ -1,0 +1,9 @@
+html {
+	font-size: 25px;
+}
+
+div {
+	width: 18rem;
+	height: 13.5rem;
+	background-color: rgb(225, 150, 0);
+}

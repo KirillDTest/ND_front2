@@ -1,0 +1,38 @@
+
+.inside {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	background-color: aqua;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -250px; 
+}
+
+.inside__logo {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+.inside__item {
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	background-color: gray;
+	top: 150px;
+}
+
+.inside__item_1 {
+	left: 50px;
+}
+
+.inside__item_2 {
+	left: 180px;
+}
+
+.inside__item_3 {
+	left: 310px;
+}
