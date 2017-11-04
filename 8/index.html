@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="block/style.css">
+	<title>Document</title>
+</head>
+<body>
+
+	<!--
+		1. Если для элемента например list-element задать базовые стили, a с помощию модификатора задавать позицию элемента.
+		Это позволит отделить внешний вид от позиции блока относительно других блоков.
+		Видешь ли ты какие то проблемы которые могут возникнуть в будущем при таком подходе?
+		Являеться ли изменение позиции модификацией?
+
+		2. Класс list-element_footer-text-alert меняет внешний вид элемента, но имеет отношение модификатору _footer.
+		В какой файл его лучше записывать list-element.css или _footer.css?
+		Есть смысл разделять внешний вид блока от позиционирования блока относительно других блоков - по сути это разные вещи?
+	-->
+
+	<header class="header">
+		<div class="logo logo_header">
+			<span class="logo__text">Logo</span>
+		</div>
+		<div class="list-element list-element_header">
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+		</div>
+	</header>
+
+	<footer class="footer">
+		<div class="list-element list-element_footer">
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+		</div>
+
+		<div class="list-element list-element_footer list-element_footer-text-alert">
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+			<div class="list-element__item">Element</div>
+		</div>
+	</footer>
+
+</body>
+</html>

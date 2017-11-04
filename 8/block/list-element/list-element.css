@@ -1,0 +1,15 @@
+@import url("_header.css");
+@import url("_footer.css");
+
+.list-element{
+	background-color: rgba(55, 97, 235, 0.3);
+	margin-top: 20px;
+}
+
+.list-element__item{
+	width: 150px;
+	height: 75px;
+	display: inline-block;
+	background-color: rgb(117, 107, 107);
+	margin-right: 30px;
+}
