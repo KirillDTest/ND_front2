@@ -1,0 +1,30 @@
+
+@import "dsgn/__dsgn.css";
+@import "projects/__projects.css";
+@import "fondue/__fondue.css";
+@import "potter/__potter.css";
+@import "tabano/__tabano.css";
+@import "louis-xx/__louis-xx.css";
+@import "p22/__p22.css";
+@import "fiji/__fiji.css";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	width: 1500px;
+	position: relative;
+	margin: auto;
+}
+.table1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-collapse: collapse;
+}
+.table2 {
+	position: absolute;
+	left: 1035px;
+	top: 0px;
+	border-collapse: collapse;
+}

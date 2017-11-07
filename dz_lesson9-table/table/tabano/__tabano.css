@@ -1,0 +1,29 @@
+.tabano {
+	position: relative;
+	width: 465px;
+	height: 465px;
+	background-color: rgb(233,234,226);
+}
+.tabano__img {
+	position: absolute;
+    left: 97px;
+    top: 32px;
+}
+.fondue__header-text_top300px {
+	top: 344px;
+	left: 60px;
+}
+.tabano__designer {
+	position: relative;
+	top: 363px;
+	left: 60px;
+	width: 152px;
+}
+.fondue__view-project_left257px {
+	left: 257px;
+	top: 316px;
+}
+.fondu__heart_left372px {
+	left: 372px;
+    top: 297px;
+}

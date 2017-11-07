@@ -1,0 +1,35 @@
+.potter {
+	width: 465px;
+	height: 250px;
+	background-color: rgb(223,224,217);
+	position: relative;
+}
+.potter__img {
+	position: absolute;
+	left: 162px;
+	top: 3px;
+}
+.fondue__header-text_left44 {
+	left: 43px;
+	top: 39px;
+}
+.potter__for-stelton {
+	position: relative;
+	left: 44px;
+	top: 55px;
+}
+.potter__text {
+	color: rgb(51,51,51);
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 12px;
+}
+.fondue__view-project_left71 {
+	left: 71px;
+	top: 73px;
+}
+.fondu__heart_top96 {
+	top: 96px;
+	left: 93px;
+}

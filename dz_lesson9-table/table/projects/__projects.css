@@ -1,0 +1,51 @@
+.projects {
+	background-color: rgb(235,178,64);
+	width: 465px;
+	height: 500px;
+	position: relative;	
+}
+.projects__ahcp {
+	position: relative;
+	width: 90px;
+	top: 172px;
+	left: 164px;
+}
+.ptojects__all-house-commersial {
+	color: rgb(255,255,255);
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+.ptojects__all-house-commersial_black {
+	color: rgb(0,0,0);
+}
+.fondue {
+	position: relative;
+	background-color: rgb(100,100,100);
+	width: 570px;
+	height: 500px;
+}
+.projects__text {
+	width: 197px;
+	height: 36px;
+	color: rgb(254,254,254);
+	font-family: 'Roboto Condensed';
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 214px;
+	top: 314px;	
+}
+.projects__arrow-img {
+	position: absolute;
+	left: -29px;
+	top: -3px;
+}
+.info-dsgn__img-line_left-1px {
+	left: -1px;
+	top: 1px;
+}

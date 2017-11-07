@@ -1,0 +1,28 @@
+.fiji {
+	position: relative;
+	width: 465px;
+	height: 251px;
+	background-color: rgb(255,255,255);
+}
+.fiji__img {
+	position: absolute;
+	top: 19px;
+}
+.fondue__header-text_top53px {
+	top: 53px;
+	left: 246px;
+}
+.fiji__text {
+	position: relative;
+	top: 72px;
+	left: 247px;
+	width: 150px;
+}
+.fondue__view-project_left279px {
+	left: 279px;
+	top: 100px;
+}
+.fondu__heart_left306px {
+	top: 121px;
+	left: 306px;
+}

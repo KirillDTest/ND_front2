@@ -1,0 +1,33 @@
+.louis-xx {
+	position: relative;
+	width: 299px;
+	height: 465px;
+	background-color: rgb(234,234,234);
+}
+.louis-xx__img {
+	position: absolute;
+}
+.fondue__header-text_top43px {
+	top: 43px;
+	left: 30px;
+}
+.louis-xx__designer {
+	position: relative;
+	top: 63px;
+	left: 31px;
+	width: 140px;
+}
+.fondue__text_white {
+	color: rgb(254,254,254);
+}
+.fondue__view-project_left68px {
+	left: 58px;
+	top: 102px;
+}
+.fondue__view-project-text_white {
+	color: rgb(255,255,255);
+}
+.fondu__heart_top131 {
+	top: 131px;
+	left: 88px;
+}

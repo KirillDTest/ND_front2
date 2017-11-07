@@ -1,0 +1,80 @@
+.dsgn {
+	position: relative;
+	height: 500px;
+}
+.dsgn__img {
+	position: absolute;
+}
+.dsgn__img_left3px {
+}
+.dsgn__img_left168px {
+	left: 168px;
+	top: 50px;
+}
+.dsgn__text {
+	font-family: "Roboto Condensed";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: rgb(57,61,60);
+	width: 95px;
+	position: absolute;
+	left: 168px;
+	top: 260px;
+}
+.dsgn__img_left186px {
+	left: 188px;
+	top: 373px;
+}
+.info-dsgn {
+	width: 465px;
+	height: 500px;
+	background-color: rgb(122,206,195);
+	position: relative;
+	top: 0px;
+	left: 0px;	
+}
+.info-dsgn__img-line {
+	position: absolute;
+}
+.ptojects__all-house-commersial_lef60 {
+	position: absolute;
+	left: 59px;
+	top: 261px;
+	width: 105px;
+}
+.ptojects__all-house-commersial_lef136 {
+ 	position: absolute;
+ 	left: 135px;
+ 	top: 372px;
+ 	width: 147px;
+}
+.menu {
+ 	position: absolute;
+ 	width: 119px;
+ 	height: 114px;
+ 	border: 3px solid white;
+ 	top: 50px;
+ 	left: 174px;
+}
+.info-dsgn__bar {
+	height: 3px;
+	color: rgb(255,255,255);
+	width: 40px;
+	position: absolute;
+	background-color: rgb(255,255,255);
+	border: none;
+}
+.info-dsgn__bar_top47px {
+	top: 47px;
+	left: 39px;
+}
+.info-dsgn__bar_top54px {
+	top: 54px;
+	left: 39px;
+}
+.info-dsgn__bar_top61px {
+	top: 61px;
+	left: 39px;
+}

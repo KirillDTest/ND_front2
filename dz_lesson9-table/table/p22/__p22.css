@@ -1,0 +1,29 @@
+.p22 {
+	position: relative;
+	left: -166px;
+	width: 736px;
+	height: 465px;
+	background-color: rgb(234,234,234);
+}
+.p22__img {
+	position: absolute;
+	top: 39px;
+}
+.fondue__header-text_top95px {
+	top: 95px;
+	left: 359px;
+}
+.p22__text {
+	position: relative;
+	top: 114px;
+	left: 359px;
+	width: 145px;
+}
+.fondue__view-project_left563px {
+	left: 563px;
+	top: 36px;
+}
+.fondu__heart_top59px {
+	top: 59px;
+	left: 584px;
+}
