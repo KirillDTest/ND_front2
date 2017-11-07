@@ -1,0 +1,11 @@
+mixin b-advert-2(data, cls)
+	+b.advert-2(class= cls)
+		+e.img(src= data.img)
+		+e.title!= data.title
+		+e.text!= data.text
+		+e.box_link
+			+e.I.icon_link(class= data.iconLink)
+			+e.link.A(href= data.href)= data.nameLink
+		+e.box-like
+			+e.I.icon_like(class= data.iconLike)
+			+e.count-like!= data.countLike

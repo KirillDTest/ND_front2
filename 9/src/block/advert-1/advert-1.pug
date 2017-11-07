@@ -1,0 +1,7 @@
+mixin b-advert-1(data, cls)
+	+b.advert-1(class= cls)
+		+e.img(src= data.img)
+		+e.title!= data.title 
+		+e.box
+			+e.I.icon(class= data.icon)
+			+e.text!= data.text

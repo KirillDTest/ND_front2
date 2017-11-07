@@ -1,0 +1,134 @@
+.logo {
+  margin-bottom: 15px;
+}
+.social-btn__item {
+  padding: 0 5px;
+}
+.table {
+  border-collapse: collapse;
+  width: 1500px;
+  margin: 0 auto;
+}
+.table__row_1 {
+  height: 500px;
+}
+.table__row_1 .table__cell:nth-child(2) {
+  background: #7acec3;
+}
+.table__row .table__cell-header_1 {
+  width: 350px;
+}
+.table__row .table__cell-header_2 {
+  width: 115px;
+}
+.table__row .table__cell-header_3 {
+  width: 270px;
+}
+.table__row .table__cell-header_4 {
+  width: 300px;
+}
+.table__row .table__cell-header_5 {
+  width: 465px;
+}
+.advert-1 {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.advert-1_1 {
+  height: 500px;
+  background-color: #ebb240;
+}
+.advert-1_2 {
+  width: 465px;
+  height: 300px;
+  background-color: #ebb240;
+}
+.advert-1__img {
+  position: absolute;
+  z-index: -1;
+}
+.advert-1__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 14px;
+}
+.advert-2 {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.advert-2_1 {
+  height: 500px;
+  background-color: #fff;
+}
+.advert-2_2 {
+  height: 250px;
+  background-color: #dfe0d9;
+}
+.advert-2_3 {
+  height: 465px;
+  background-color: #e9eae2;
+}
+.advert-2_4 {
+  height: 465px;
+}
+.advert-2_5 {
+  height: 465px;
+  background-color: #eaeaea;
+}
+.advert-2_6 {
+  height: 251px;
+  background-color: #fff;
+}
+.advert-2_7 {
+  height: 300px;
+  background-color: #fcfcfc;
+}
+.advert-2_8 {
+  height: 300px;
+  background-color: #cecece;
+}
+.advert-2__img {
+  position: absolute;
+  z-index: -1;
+}
+.advert-2__title {
+  font-size: 24px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+.advert-2__text {
+  margin-bottom: 20px;
+}
+.advert-2__link {
+  font-size: 18px;
+  line-height: 12px;
+  padding-left: 15px;
+}
+.advert-2__box-like {
+  padding-left: 50px;
+}
+.advert-2__count-like {
+  color: #eb5252;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.icon-my {
+  display: inline-block;
+}

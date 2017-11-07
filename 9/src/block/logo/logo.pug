@@ -1,0 +1,4 @@
+mixin b-logo(data, cls)
+	+b.logo(class= cls)
+		+e.IMG.img(src= data.src alt= data.alt)
+		+e.text!= data.text

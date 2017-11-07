@@ -1,0 +1,47 @@
+mixin b-table(cls)
+	+b.TABLE.table(class= cls)
+	
+		+e.TR.row_0
+			+e.TH.cell-header_1
+			+e.TH.cell-header_2
+			+e.TH.cell-header_3
+			+e.TH.cell-header_4
+			+e.TH.cell-header_5
+
+		+e.TR.row_1
+			+e.TD(colspan="4").cell
+				+b-logo(logo, '_header')
+				+b-social-btn(socialBtn, '_header')
+			+e.TD.cell_2
+				+b-contacts(contacts, '_header')
+				+b-nav('', '_header')
+
+		+e.TR.row_2
+			+e.TD(rowspan="2" colspan="2").cell
+				+b-advert-1(advert._1, '_1')
+			+e.TD(rowspan="2" colspan="2").cell
+				+b-advert-2(advert._2, '_1')
+			+e.TD.cell
+				+b-advert-2(advert._3, '_2')
+
+		+e.TR.row_3
+			+e.TD(rowspan="2").cell
+				+b-advert-2(advert._4, '_3')
+
+		+e.TR.row_4
+			+e.TD(rowspan="2").cell
+				+b-advert-2(advert._5, '_4')
+			+e.TD(rowspan="2" colspan="3").cell
+				+b-advert-2(advert._6, '_5')
+
+		+e.TR.row_5
+			+e.TD.cell
+				+b-advert-2(advert._7, '_6')
+
+		+e.TR.row_6
+			+e.TD(colspan="3").cell
+				+b-advert-2(advert._8, '_7')
+			+e.TD(colspan="1").cell
+				+b-advert-2(advert._9, '_8')
+			+e.TD.cell
+				+b-advert-1(advert._10, '_2')

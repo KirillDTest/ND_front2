@@ -1,0 +1,10 @@
+mixin b-nav(data, cls)
+	+b.NAV.nav(class= cls)
+		+b.btn-burger
+			+e.item
+			+e.item
+			+e.item
+		if data
+			each data in item
+				+e.item
+					+e.A.link(href= item.href)= item.name

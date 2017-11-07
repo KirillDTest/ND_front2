@@ -1,0 +1,10 @@
+mixin b-contacts(data, cls)
+	+b.contacts(class= cls)
+		each item in data
+			+e.item
+				if item.type == 'phone'
+					+e.A.link(href='tel:' + item.href, class= '_' + item.type)!= item.name
+				if item.type == 'mail'
+					+e.A.link(href='mailto:' + item.href, class= '_' + item.type)!= item.name
+				if item.type == 'address'
+					+e.ADDRESS.text(class= '_' + item.type)!= item.name
