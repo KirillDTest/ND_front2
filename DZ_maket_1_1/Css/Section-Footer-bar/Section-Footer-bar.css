@@ -1,0 +1,23 @@
+.Section-Footer-bar{
+	position:absolute;
+	top:3090px;
+	width:1200px;
+	height:68px;
+	background-color:#69d3e8;
+	}
+
+
+.Section-Footer-bar__text-left{
+	Left:99px;
+}
+
+.Section-Footer-bar__text-right{
+	Left:857px;
+}
+.Section-Footer-bar__text{
+	position:absolute;
+	font-size:14px;
+	font-weight:400;
+	top:23px;
+	color:#ffffff;
+}

@@ -1,0 +1,109 @@
+
+.first-Section-Header{
+	position:absolute;
+	width:1200px;
+	height:470px;
+	background-color:hsl(190, 72%, 66%);
+	border-top: 5px solid hsl(25,100%, 49%);
+	box-sizing: border-box;	}
+	
+.logo{
+	position:absolute;
+	width:50px;
+	height:38px;
+	
+	background-color:hsl(25,100%, 49%);
+	
+	top:35px;
+	left:100px;
+}
+
+.Logo-down{
+	position:absolute;
+	width:50px;
+	height:8px;
+	border: 25px solid transparent;	border-top: 10px solid hsl(25,100%, 49%);
+	top:38px;
+	left:0px;
+	box-sizing: border-box;	
+}
+
+.Open-Sans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo__plus{
+	position:absolute;
+	top:-20px;
+	left:9px;
+	font-size:57px;
+	font-weight:bold;
+	z-index:1;
+	color:#ffffff;
+	text-transform: uppercase;
+	}
+
+.company-name{
+	position:absolute;
+	top:-6px;
+	left:60px;
+	font-size:20px;
+	font-weight:bold;
+	white-space: nowrap;
+	text-transform: uppercase;
+	line-height: normal ;
+}
+
+.tag-line-goes-here{
+	position:absolute;
+	top:20px;
+	left:61px;
+	font-size:17px;
+	white-space: nowrap;
+	line-height: normal ;
+}
+
+.meny-first{
+	position:absolute;
+	width:41px;
+	height:41px;
+	top:28px;
+	left:1049px;
+	background-color:hsl(190, 72%, 66%);
+	box-sizing:border-box;
+	border:2px solid hsl(195,80%, 98%);
+}
+
+.border-radius-50{
+	border-radius:50%;
+}
+
+.fa-bars{
+	position:absolute;
+	color:hsl(195,80%, 98%);
+	left:8px;
+	top:6px;
+	font-size:24px;
+}
+
+.title{
+	position:absolute;
+	top:151px;
+	left:466px;
+	font-size:83px;
+	font-weight:bold;
+	color:hsl(195,80%, 98%);
+	text-transform: uppercase;
+}
+
+.we-are-online-clinic{
+	position:absolute;
+	top:94px;
+	left:-43px;
+	font-size:31px;
+	font-weight:bold;
+	color:hsl(195,80%, 98%);
+	white-space: nowrap;
+	
+	
+}

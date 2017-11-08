@@ -1,0 +1,77 @@
+.Section-Four{
+	position:absolute;
+	top:1474px;
+	width:1200px;
+	height:532px;
+	background-color:#f1f1f1;
+	}
+
+.Section-Four__logo-centr{
+	position:absolute;
+	top:51px;
+	left:512px;
+	width:178px;
+	height:178px;
+	background-color:#f1f1f1;
+}
+.Section-Four__logo-centr>img{
+	position:absolute;
+	top:43px;
+	left:45px;
+	}
+	
+.Alice{
+	position:absolute;
+	width:197px;
+	height:51px;
+	font-size:26px;
+	font-weight:700;
+	top:256px;
+	left:502px;
+	text-align:center;
+	white-space: nowrap;
+	line-height:112%;
+}
+.Alice>p{
+	position:absolute;
+	font-weight:300;
+	font-size:22px;
+	left:11px;
+}
+
+.Loren{
+	position:absolute;
+	top:342px;
+	left:266px;
+	line-height:23px;
+	font-size:16px;
+	font-weight:300;
+	text-align:center;
+}
+
+.Section-Four__bottom-circle-left-parametr{
+	position:absolute;
+	top:481px;
+	width:18px;
+	height:18px;
+	background-color:#f1f1f1;
+	box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.3);
+	/*border:1px solid hsla(0, 0%, 0%, 0.3);*/
+	box-sizing:border-box;
+}
+
+.Section-Four__bottom-circle-left{
+	left:550px;
+	background-color:#69d3e8;
+	box-shadow:none;
+}
+
+.Section-Four__bottom-circle-centr{
+	left:592px;
+}
+
+.Section-Four__bottom-circle-right{
+	left:634px;
+}
+
+

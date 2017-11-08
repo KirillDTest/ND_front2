@@ -1,0 +1,43 @@
+.Section-Bullet-Points{
+	position:absolute;
+	top:2006px;
+	width:1200px;
+	height:532px;
+	background-color:#fa6900;
+	overflow:hidden;
+	}
+
+.Section-Bullet-Points_right-circle{
+	position:absolute;
+	top:-118px;
+	left:583px;
+	width:662px;
+	height:751px;
+	background-color:#f1f1f1;
+	border-radius:49% 0 0 49%;
+}
+
+.Lorem-ipsum-dolor-sit-amet{
+	position:absolute;
+	top:137px;
+	left:101px;
+	font-weight:700;
+	font-size:26px;
+	line-height:112%;
+	color:#f6fcfe;
+}
+
+.Sed-do-eiusmod-tempor{
+	font-weight:300;
+	font-size:22px;
+}
+
+.Section-Bullet-Points__text{
+	position:absolute;
+	top:242px;
+	left:101px;
+	font-weight:300;
+	font-size:16px;	
+	color:#f6fcfe;
+	line-height:19px;
+	}

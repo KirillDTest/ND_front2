@@ -1,0 +1,101 @@
+.Section-Footer{
+	position:absolute;
+	top:2538px;
+	width:1200px;
+	height:552px;
+	background-color:#f1f1f1;
+	}
+
+.poz-log{
+	position:absolute;
+	top:57px;
+}
+
+.Latest-Post{
+	position:absolute;
+	font-size:26px;
+	font-weight:700;
+	top:83px;
+	left:724px;
+	
+}
+
+.tableR {
+	position:absolute;
+	top:173px;
+	left:99px;
+	width:151px;
+	height:39px;
+  border-spacing: 0;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.bord{
+	border-right: 1px solid;
+	}
+
+.Lorem-ipsum-dolor-sit-amet-footer{
+	position:absolute;
+	font-size:16px;
+	font-weight:300;
+	top:230px;
+	left:100px;
+	line-height:26px;
+}
+
+.footer-box{
+	position:absolute;
+	width:93px;
+	height:93px;
+	box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+	opacity:20%;
+	left:727px;
+}
+
+.footer-box-top{
+	top:165px;
+}
+
+.footer-box-center{
+	top:289px;
+}
+
+.footer-box-bottom{
+	top:412px;
+}
+
+.Section-Footer__text-right{
+	position:absolute;
+	font-size:14px;
+	font-weight:700;
+	left:847px;
+	/*line-height:26px;*/
+	color:#000000;
+}
+
+
+
+.Section-Footer-text-right-top{
+	top:161px;
+}
+
+.Section-Footer-text-right-center{
+	top:285px;
+}
+
+.Section-Footer-text-right-bottom{
+	top:409px;
+}
+
+/*.Section-Footer-text{
+	font-size:14px;
+	font-weight:400;
+	line-height:10px;
+}*/
+.Section-Footer__text-right>p{                   не пойму почему не работает так ????
+	font-size:14px;
+	font-weight:400;
+	line-height:17px;
+}
+
