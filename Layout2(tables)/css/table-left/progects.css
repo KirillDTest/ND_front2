@@ -1,0 +1,39 @@
+.progects {
+	width: 465px;
+	height: 500px;
+	background-color: rgb(235,178,64);
+}
+
+.progects>div {
+	position: absolute;
+}
+
+.progects__topic {
+	color: rgb(254,254,254);
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	top: 239px;
+	left: 214px;
+}
+
+.progects__text {
+	width: 80px;
+	top: 173px;
+	left: 164px;
+}
+
+.progects__text span {
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+
+.projects__arrow {
+	top: 170px;
+	left: 135px;
+}
+
+.progects__line {
+	/*смотри в html*/
+}
+

@@ -1,0 +1,36 @@
+.sesann {
+	width: 735px;
+	height: 300px;
+	background-color: rgb(252,252,252);
+}
+
+.sesann>div {
+	position: absolute;
+	color: rgb(51,51,51);
+}
+
+.sesann__topic {
+	top: 203px;
+	left: 152px;
+}
+
+.sesann__text{
+	top: 231px;
+	left: 151px;
+}
+
+.sesann__arrow-text {
+	top: 230px;
+	left: 362px;
+}
+
+.sesann__heart {
+	top: 228px;
+	left: 545px;
+}
+
+.sesann__img {
+	top: 27px;
+	left: 131px;
+}
+

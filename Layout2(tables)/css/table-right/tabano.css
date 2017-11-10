@@ -1,0 +1,29 @@
+.tabano {
+	width: 465px;
+	height: 465px;
+	background-color: rgb(233,234,226);
+}
+
+.tabano>div {
+	position: absolute;
+}
+
+.tabano__topic {
+	top: 340px;
+	left: 60px;
+}
+
+.tabano__text {
+	top: 376px;
+	left: 59px;
+}
+
+.tabano__arrow-text {
+	top: 374px;
+	left: 230px;
+}
+
+.tabano__heart {
+	top: 373px;
+	left: 384px;
+}

@@ -1,0 +1,36 @@
+.number {
+	width: 736px;
+	height: 465px;
+	left: -436px;
+	background-color: rgb(234,234,234);
+}
+
+.number>div {
+	position: absolute;
+	color: rgb(51,51,51);
+}
+
+.number__topic {
+	top: 92px;
+	left: 360px;
+}
+
+.number__text {
+	top: 128px;
+	left: 359px;
+}
+
+.number__arrow-text{
+	top: 96px;
+	left: 536px;
+}
+
+.number__heart {
+	top: 137px;
+	left: 596px;
+}
+
+.number>img {
+	position: absolute;
+	top: 38.5px;
+}

@@ -1,0 +1,37 @@
+.potter {
+	width: 462px;
+	height: 250px;
+	background-color: rgb(223,224,217);
+}
+
+.potter>div {
+	position: absolute;
+}
+
+.potter__img{
+	left: 162px;
+}
+
+.potter__topic {
+	top: 38px;
+	left: 44px;
+}
+
+.potter__text {
+	top: 68px;
+	left: 43px;
+}
+
+.potter__text span {
+	text-transform: none;
+}
+
+.potter__arrow-text {
+	top: 145px;
+	left: 42px;
+}
+
+.potter__heart {
+	top: 186px;
+	left: 103px;
+}

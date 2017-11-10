@@ -1,0 +1,29 @@
+.louis {
+	width: 299px;
+	height: 466px;
+}
+
+.louis>div {
+	position: absolute;
+	color: rgb(255,255,255);
+}
+
+.louis__topic {
+	top: 44px;
+	left: 33px;
+}
+
+.louis__text {
+	top: 79px;
+	left: 30px;
+}
+
+.louis__arrow-text {
+	top: 163px;
+	left: 30px;
+}
+
+.louis__heart {
+	top: 210px;
+	left: 100px;
+}

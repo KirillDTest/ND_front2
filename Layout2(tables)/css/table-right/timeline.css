@@ -1,0 +1,26 @@
+.timeline {
+	width: 465px;
+	height: 300px;
+	background-color: rgb(235,178,64);
+}
+
+.timeline>div{
+	position: absolute;
+}
+
+.timeline__topic {
+	top: 61px;
+	left: 100px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.timeline__text {
+	top: 80px;
+	left: 100px;
+}
+
+.timeline__arrow {
+	top: 77px;
+	left: 71px;
+}

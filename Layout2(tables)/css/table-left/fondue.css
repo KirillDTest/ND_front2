@@ -1,0 +1,42 @@
+
+.fondue {
+	width: 570px;
+	height: 500px;
+	left: -270px;
+	}
+
+.fondue>div {
+	position: absolute;
+	color: rgb(51,51,51);
+
+}
+
+.fondue__topic {
+	top: 90px;
+	left: 101px;
+}
+
+
+.fondue__text {
+	top: 123px;
+	left: 101px;
+	width: 240px;
+	height: 59px;
+}
+
+
+.fondue__arrow-text{
+	top: 256px;
+	left: 109px;
+}
+
+
+.fondue__heart {
+	top: 386px;
+	left: 169px;
+}
+
+.fondue__img {
+	z-index: -1;
+	left: 215px;
+}

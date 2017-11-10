@@ -1,0 +1,32 @@
+.fiji {
+	width: 465px;
+	height: 251px;
+}
+
+.fiji>div{
+	position: absolute;
+}
+
+.fiji__img {
+	top: 18px;
+}
+
+.fiji__topic {
+	top: 51px;
+	left: 248px;
+}
+
+.fiji__text {
+	top: 87px;
+	left: 246px;
+}
+
+.fiji__arrow-text {
+	top: 149px;
+	left: 251px;
+}
+
+.fiji__heart {
+	top: 188px;
+	left: 318px;
+}
