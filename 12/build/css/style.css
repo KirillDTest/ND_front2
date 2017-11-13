@@ -99,7 +99,7 @@
   box-shadow: 0 0 4px rgba(0,0,0,0.75);
   margin-bottom: 15px;
 }
-.box-img {
+.about__box-img {
   width: 216px;
   display: flex;
   flex-wrap: wrap;
@@ -107,31 +107,31 @@
   align-content: space-between;
   margin-right: 15px;
 }
-.box-img__img {
+.about__img {
   width: 104px;
   height: 79px;
 }
-.box-text {
+.about__box-text {
   width: 670px;
   display: flex;
   flex-direction: column;
 }
-.box-text__title {
+.about__title {
   margin: 0 0 10px;
   font-size: 18px;
 }
-.box-text__text {
+.about__text {
   margin-bottom: 30px;
   text-indent: 2em;
   text-align: justify;
 }
-.box-text__link {
+.about__link {
   align-self: flex-end;
 }
-.box-text__link:active,
-.box-text__link:hover,
-.box-text__link:visited,
-.box-text__link:link {
+.about__link:active,
+.about__link:hover,
+.about__link:visited,
+.about__link:link {
   color: #000;
 }
 .footer {
