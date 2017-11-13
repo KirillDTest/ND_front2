@@ -1,0 +1,19 @@
+@import url("css/wraper.css");
+@import url("css/logo.css");
+@import url("css/header.css");
+@import url("css/cityfoto.css");
+@import url("css/item1.css");
+@import url("css/item2.css");
+@import url("css/footer.css");
+
+@font-face {
+	font-family: Rockwell, serif;
+	src: url('font/ROCK.ttf');
+} 
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rockwell', serif;
+}
+

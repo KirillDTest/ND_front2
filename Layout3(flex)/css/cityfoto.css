@@ -1,0 +1,13 @@
+.cityfoto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 929px;
+	height: 375px;
+	background-color: rgb(255,255,255);
+}
+
+.cityfoto img {
+	width: 906px;
+	height: 347px;
+}

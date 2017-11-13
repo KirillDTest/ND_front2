@@ -1,0 +1,13 @@
+.wraper {
+	width: 1024px;
+	height: 1365px;
+	margin: 0 auto;
+	background-image: url(../img/wraper-background.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 44px 0 118px;
+	box-sizing: border-box;
+}
