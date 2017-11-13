@@ -1,0 +1,14 @@
+.wallpaper {
+	width: 930px;
+	height: 381px;
+	background-color: rgb(255,255,255);
+	border: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wallpaper__block {
+	width: 906px;
+	height: 347px;
+	background-image: url('hd-wallpapers.png');
+}

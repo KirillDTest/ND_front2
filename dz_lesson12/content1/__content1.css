@@ -1,0 +1,50 @@
+.content1 {
+	width: 930px;
+	height: 381px;
+	display: flex;
+	justify-content: space-between;
+}
+.content1__block {
+	width: 222px;
+	height: 381px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgb(255,255,255);
+	border: 1px solid grey;
+}
+.content1__img1 {
+	width: 201px;
+	height: 155px;
+	background-image: url('the-old-farm-wide-1.png');
+}
+.content1__img1_img2 {
+	background-image: url('theoldfarmv41680x1050kq9.png');
+}
+.content1__img1_img3 {
+	background-image: url('hd-wallpapers-wide-pack--37-.png');
+}
+.content1__img1_img4 {
+	background-image: url('hd-wallpapers-wide-pack--31-.png');
+}
+.content1__text {
+	text-indent: 25px;
+	width: 201px;
+	height: 125px;
+	color: rgb(52,52,51);
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: 400;
+}
+.content1__link {
+	width: 40px;
+	height: 8px;
+	color: rgb(0,0,0);
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: underline;
+	align-self: flex-end;
+	margin-right: 16px;
+}

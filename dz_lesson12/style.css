@@ -1,0 +1,24 @@
+@import "logo/__logo.css";
+@import "header/__header.css";
+@import "wallpaper/__wallpaper.css";
+@import "content1/__content1.css";
+@import "content2/__content2.css";
+@import "footer/__footer.css";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 1024px;
+	height: 1365px;
+	margin: auto;
+	background-image: url('background.png');
+}
+.main-block {
+	margin-right: 5px;
+}
