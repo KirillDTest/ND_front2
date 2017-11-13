@@ -1,0 +1,7 @@
+User-Agent: Googlebot
+Disallow:
+
+User-Agent: *
+Disallow:/
+
+Sitemap: http://www.aerovis.aero/sitemap.xml

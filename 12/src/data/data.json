@@ -1,0 +1,135 @@
+{
+
+	"socialBtn" : [
+		{
+			"icon" : "icon-my_facebook",
+			"href" : "#"
+		},
+		{
+			"icon" : "icon-my_twitter",
+			"href" : "#"
+		},
+		{
+			"icon" : "icon-my_linkedin",
+			"href" : "#"
+		},
+		{
+			"icon" : "icon-my_google-plus",
+			"href" : "#"
+		}
+	],
+	"logo" : {
+		"src" : "img/logo.png",
+		"alt" : "logo",
+		"text" : "ASSOCIATES <br> STUDIO <br> DESIGN"
+	},
+
+	"contacts" : [
+		{
+			"name" : "90802 California <br> Long beach <br> PO Box 68789 <br> 300 East Ocean <br> Boulevard",
+			"href" : "#",
+			"type" : "address"
+		},
+		{
+			"name" : "+64 9 345 6758",
+			"href" : "+6493456758",
+			"type" : "phone"
+		},
+		{
+			"name" : "info@dsgn-studio.com",
+			"href" : "info@dsgn-studio.com",
+			"type" : "mail"
+		}
+	],
+	"advert" : {
+		"_1" : {
+			"img" : "img/bg_3.png",
+			"title" : "projects",
+			"text" : "All <br> House <br> Commercial <br> Personal <br> Studio Lab",
+			"icon" : "icon-my_arrow-right-white"
+		},
+		"_2" : {
+			"img" : "img/bg_4.png",
+			"title" : "FONDUE",
+			"text" : "<b>Project Assistant:</b> Francesco Dompieri <br> <b>Material:</b> Glass and Metal <br> <b>Typology:</b> Suspension lamp <br> <b>Client:</b> David Design <br> <b>Year:</b> 2014",
+			"iconLink" : "icon-my_arrow-right-orange",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_3" : {
+			"img" : "img/bg_5.png",
+			"title" : "potter",
+			"text" : "<b>for</b> stelton <br> Potter focuses on the functional- <br> ity and process of preparing tea.<br> a big sieve allows the flavor of to <br> evenly brewed",
+			"iconLink" : "icon-my_arrow-right-orange",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_4" : {
+			"img" : "img/bg_6.png",
+			"title" : "louis xx",
+			"text" : "<b>designer:</b> philippe starck <br> <b>ypology:</b> chairs <br> <b>Client:</b> vitra <br> <b>Year:</b> 2012",
+			"iconLink" : "icon-my_arrow-right-orange",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-white",
+			"countLike" : "-200"
+		},
+		"_5" : {
+			"img" : "img/bg_7.png",
+			"title" : "louis xx",
+			"text" : "<b>designer:</b> philippe starck <br> <b>ypology:</b> chairs <br> <b>Client:</b> vitra <br> <b>Year:</b> 2012",
+			"iconLink" : "icon-my_arrow-right-orange",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_6" : {
+			"img" : "img/bg_8.png",
+			"title" : "395-396 P22",
+			"text" : "<b>Designer:</b> Patrick Norguet <br> <b>Typology:</b> ARMchairs <br> <b>Client:</b> Cassina <br> <b>Year:</b> 2013",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_7" : {
+			"img" : "img/bg_9.png",
+			"title" : "FIJI",
+			"text" : "<b>designer:</b> Cuno Frommherz <br> <b>Typology:</b> armchairs <br> <b>Year:</b> 2012",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_8" : {
+			"img" : "img/bg_10.png",
+			"title" : "Sesann",
+			"text" : "<b>designer:</b> Gianfranco Frattini <br> <b>Typology:</b> armchairs <br> <b>Client:</b> cassina <br> <b>Year:</b> 1970",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_9" : {
+			"img" : "img/bg_11.png",
+			"title" : "Alessi",
+			"text" : "<b>designer:</b> Piero Lissoni <br> <b>Client:</b> Alessi <br> <b>Year:</b> 2013",
+			"href" : "#",
+			"nameLink" : "view project",
+			"iconLike" : "icon-my_heart-black",
+			"countLike" : "+200"
+		},
+		"_10" : {
+			"img" : "img/bg_12.png",
+			"title" : "timeline",
+			"text" : "2014 <br> 2013 <br> 2012 <br> 2011 <br> 2010",
+			"icon" : "icon-my_arrow-right-white"
+		}
+	}
+
+}
