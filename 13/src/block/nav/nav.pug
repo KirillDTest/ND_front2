@@ -1,0 +1,14 @@
+mixin b-nav(data, cls)
+	mixin e-nav-menu(data)
+		each menu in data
+			+e.UL.menu
+				each item in menu
+					if item.name
+						+e.item
+							+e.A.link(href="#")!= item.name
+							if item.menu
+								+e-nav-menu(item)
+	+b.NAV.nav(class= cls)
+		+e-nav-menu(data)
+
+
