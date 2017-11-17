@@ -1,0 +1,123 @@
+@keyframes leaves {
+	0% {
+		background-color: transparent;
+	}
+	18% {
+		background-color: rgb(7,184,7);
+	}
+	25% {
+		background-color: rgb(5,139,5);
+	}
+	40% {
+		background-color: rgb(9,82,9)
+	}
+	50% {
+		background-color: rgb(104,182,44);
+	}
+	65% {
+		background-color: rgb(174,182,44);
+	}
+	75% {
+		background-color: rgb(215,183,23);
+	}
+	85% {
+		background-color: rgb(215,138,23);
+	}
+	90% {
+		background-color: rgb(217,66,8);
+	}
+	100% {
+		background-color: transparent;
+	}
+}
+
+.leaves {
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	z-index: -1;
+	transform: translate(210px, -100px);
+	border-radius: 50%;
+	animation-name: leaves;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.container {
+	width: 1000px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+	margin: auto;	
+}
+
+.stump {
+	background-image: url(tree-trunk.png);
+	width: 113px;
+	height: 203px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.branch1 {
+	width: 15px;
+	height: 120px;
+	background-color: rgb(75,64,61);
+	transform: translate(10px, -175px) rotate(20deg) skew(-30deg, 10deg);
+}
+
+.branch2 {
+	width: 15px;
+	height: 100px;
+	background-color: rgb(75,64,61);
+	transform: translate(-150px, -175px) rotate(-60deg) skew(-20deg);
+}
+
+.branch3 {
+	width: 30px;
+	height: 120px;
+	background-color: rgb(75,64,61);
+	transform: translate(-130px, -190px) skew(10deg);
+}
+
+.branch4 {
+	width: 12px;
+	height: 100px;
+	background-color: rgb(75,64,61);
+	transform: translate(-120px, -230px) rotate(65deg);
+}
+
+.branch5 {
+	width: 8px;
+	height: 50px;
+	background-color: rgb(75,64,61);
+	transform: translate(-120px, -280px) skew(-10deg, -10deg);
+}
+
+.branch6 {
+	width: 8px;
+	height: 40px;
+	background-color: rgb(75,64,61);
+	transform: translate(-85px, -230px) skew(45deg);
+}
+.branch7 {
+	width: 10px;
+	height: 40px;
+	background-color: rgb(75,64,61);
+	transform: translate(-240px, -200px) rotate(-90deg);
+}
+.branch8 {
+	width: 10px;
+	height: 60px;
+	background-color: rgb(75,64,61);
+	transform: translate(-80px, -180px) rotate(120deg);
+}
+.branch9 {
+	width: 5px;
+	height: 20px;
+	background-color: rgb(75,64,61);
+	transform: translate(-75px, -205px) rotate(60deg);
+}
