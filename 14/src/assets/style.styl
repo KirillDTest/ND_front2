@@ -1,0 +1,115 @@
+@import "../block/index"
+
+@keyframes day
+	0%
+		opacity: 0
+	100%
+		opacity: 0.9
+
+@keyframes tree
+	0%
+		opacity: 1
+	100%
+		opacity: 0.4
+
+@keyframes squirrel
+	0%
+		margin-left: 0
+	100%
+		margin-left: 300px
+
+html, body
+	min-height: 100%
+	height: 100%
+	margin: 0
+	padding: 0
+
+.wrapper
+	height: 100%
+	background: linear-gradient(to top, #7CFC00 10%, #fff 70%, #00BFFF)
+	display: flex
+	align-items: flex-end
+	justify-content: center
+	position: relative
+	&::before
+		content: ""
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: #000
+		z-index: 100
+		opacity: 0
+		animation-name: day
+		animation-duration: 24s
+		animation-iteration-count: infinite
+		animation-direction: alternate
+
+.tree
+	font-size 0
+	display: flex
+	flex-direction: column
+	align-items: center
+	animation-name: tree
+	animation-duration: 24s
+	animation-iteration-count: infinite
+	animation-direction: alternate
+
+	&__krone
+		border-radius 50%
+		background: #3ADF00
+		width: 300px
+		height: 340px
+		margin-bottom: 10px
+	&__stem
+		height: 170px
+		width: 50px
+		background: #8A2908
+		margin: 0 50px
+		&::after
+		&::before
+			content: ''
+			display: inline-block
+			height: 70px
+			width: 24px
+			background: #8A2908
+		&::after
+			transform: rotate(45deg) translate(-20px, -50px)
+		&::before
+			transform: rotate(-45deg) translate(20px, -50px)
+
+.squirrel
+	background: #FF8000
+	width: 15px
+	height: 30px
+	position: relative
+	border-radius: 50%
+	box-shadow 0 0 10px 0 #FF8000
+	position: absolute
+	animation-name: squirrel
+	animation-duration: 12s
+	animation-iteration-count: infinite
+	animation-direction: alternate
+
+	&::after
+	&::before
+		box-shadow 0 0 10px 0 #FF8000
+		background: #FF8000
+		border-radius: 50%
+		content: ''
+		display: inline-block
+		position: absolute
+	&::after
+		height: 10px
+		width: 10px
+		right: 3px
+		top: -8px
+	&::before
+		height: 7px
+		width: 15px
+		left: -12px
+		bottom: 0
+		transform: rotate(-30deg)
+

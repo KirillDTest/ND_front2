@@ -1,0 +1,199 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100%;
+  background: linear-gradient(to top, #7cfc00 10%, #fff 70%, #00bfff);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.wrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 100;
+  opacity: 0;
+  animation-name: day;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.tree {
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-name: tree;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.tree__krone {
+  border-radius: 50%;
+  background: #3adf00;
+  width: 300px;
+  height: 340px;
+  margin-bottom: 10px;
+}
+.tree__stem {
+  height: 170px;
+  width: 50px;
+  background: #8a2908;
+  margin: 0 50px;
+}
+.tree__stem::after,
+.tree__stem::before {
+  content: '';
+  display: inline-block;
+  height: 70px;
+  width: 24px;
+  background: #8a2908;
+}
+.tree__stem::after {
+  transform: rotate(45deg) translate(-20px, -50px);
+}
+.tree__stem::before {
+  transform: rotate(-45deg) translate(20px, -50px);
+}
+.squirrel {
+  background: #ff8000;
+  width: 15px;
+  height: 30px;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 #ff8000;
+  position: absolute;
+  animation-name: squirrel;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.squirrel::after,
+.squirrel::before {
+  box-shadow: 0 0 10px 0 #ff8000;
+  background: #ff8000;
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  position: absolute;
+}
+.squirrel::after {
+  height: 10px;
+  width: 10px;
+  right: 3px;
+  top: -8px;
+}
+.squirrel::before {
+  height: 7px;
+  width: 15px;
+  left: -12px;
+  bottom: 0;
+  transform: rotate(-30deg);
+}
+@-moz-keyframes day {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-webkit-keyframes day {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-o-keyframes day {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@keyframes day {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-moz-keyframes tree {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-webkit-keyframes tree {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-o-keyframes tree {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@keyframes tree {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-moz-keyframes squirrel {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 300px;
+  }
+}
+@-webkit-keyframes squirrel {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 300px;
+  }
+}
+@-o-keyframes squirrel {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 300px;
+  }
+}
+@keyframes squirrel {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 300px;
+  }
+}
