@@ -1,0 +1,175 @@
+ @keyframes Cs{
+	 0%{
+	 background-color: green;
+	  width:100px;
+	 height:100px;
+	 left:525px;
+	 top:30px;
+	 } 
+	 25%{
+	background-color: yellow;
+	width:120px;
+	 height:120px;
+	left:520px;
+	top:22.5px;
+	}
+	50%{
+	background-color: orange;
+	width:130px;
+	 height:130px;
+	left:515px;
+	top:15px;
+	}
+	75%{
+	background-color: white;
+	width:150px;
+	height:150px;
+	left:510px;
+	top:7.5px;
+	}
+ }
+ 
+ @keyframes  st{
+	 0%{
+	 
+	  width:10px;
+	
+	 } 
+	 25%{
+	
+	width:14px;
+	
+	}
+	50%{
+	
+	width:16px;
+	
+	}
+	75%{
+	
+	width:20px;
+	
+	}
+ }
+ 
+  @keyframes  st1{
+	 0%{
+	 
+	  width:10px;
+	height:40px;
+	margin-top:370px;
+	margin-left:579px;
+	 } 
+	 25%{
+	
+	width:12px;
+	height:50px;
+	
+	}
+	50%{
+	
+	width:14px;
+	height:60px;
+	
+	}
+	75%{
+	
+	width:16px;
+	height:70px;
+	
+	}
+ }
+ 
+  @keyframes  st2{
+	 0%{
+	 
+	  width:10px;
+	height:40px;
+	margin-top:375px;
+	margin-left:545px;
+	 } 
+	 25%{
+	
+	width:12px;
+	
+	
+	}
+	50%{
+	
+	width:14px;
+	
+	
+	}
+	75%{
+	
+	width:16px;
+	
+	
+	}
+ }
+
+ 
+ .zona{
+	 width:100%;
+	 height:515px;
+	 
+   }
+ 
+ .Krona{
+	 margin-top:300px;
+	 left:510px;
+	 position:absolute;
+	  width:150px;
+	 height:150px;
+	 border-radius: 50%;
+	 animation-name:Cs;
+	 animation-iteration-count: 1;
+	  animation-timing-function:linear;
+	  animation-duration:20s;
+	
+ } 
+ .stolb{
+	 position:absolute;
+	 margin-top:400px;
+	 margin-left:565px;
+	 width:20px;
+	 height:75px;
+	 
+	 animation-name:st;
+	 animation-iteration-count: 1;
+	  animation-timing-function:ease-out;
+	  animation-duration:20s;
+	  background-color: brown;
+	 
+ } 
+ 
+.vetkaf{
+	position:absolute;
+	 margin-top:345px;
+	 margin-left:590px;
+	 width:16px;
+	 height:70px;
+	 transform: rotate(45deg);
+	 animation-name:st1;
+	 animation-iteration-count: 1;
+	 animation-timing-function:ease-out;
+	 animation-duration:20s;
+	 background-color: brown;
+	
+}
+ 
+ .vetkas{
+	position:absolute;
+	 margin-top:365px;
+	 margin-left:545px;
+	 width:16px;
+	 height:50px;
+	 transform: rotate(-70deg);
+	 animation-name:st2;
+	 animation-iteration-count: 1;
+	 animation-timing-function:ease-out;
+	 animation-duration:20s;
+	 background-color: brown;
+	
+}
+ 
