@@ -1,0 +1,49 @@
+.menu {
+	display: flex;
+	width: 1000px;
+	height: 100px;
+	background-color: rgb(63,97,255);
+	margin: 100px auto;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+div {
+	width: 200px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.none {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	opacity: 0;
+	width: 160px;
+	background-color: grey;
+	font-size: 14px;
+	padding-top: 10px;
+	border-radius: 20px;
+	position: absolute;
+	overflow: hidden;
+	transition-duration: 3s; /*исчезновение элемента*/
+}
+
+.hover:hover + .none, .none:hover {
+	transition-duration: 2s; /*появление элемента*/
+	opacity: 1;
+}
+
+.none_left {
+	left: 45px;
+	top: 65px;
+	height: 100px;
+}
+
+.none_right {
+	right: 45px;
+	top: 65px;
+	height: 150px;
+}
+

@@ -39,3 +39,7 @@ td>div {
 	position: relative;
 }
 
+svg {
+	display: block;
+}
+
