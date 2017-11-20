@@ -3,15 +3,15 @@
 		background-color: rgb(0,128,0);
 	}
 
-	33% {
+	15% {
 		background-color: rgb(84,158,24);
 	}
 
-	66% {
+	48% {
 		background-color: rgb(255,186,36);
 	}
 
-	99% {
+	81% {
 		background-color: rgb(255,255,255);
 }
 
@@ -51,9 +51,9 @@
 	position: absolute;
 	width: 200px;
 	height: 200px;
-	background-color: rgb(0,128,0);
+	/*background-color: rgb(0,128,0);*/
 	border-radius: 80px;
-	opacity: 0.90;
+	opacity: 0.9;
 	border: 0.5px solid rgb(103,103,103,0.5);
 	box-shadow: 0 0 5px rgb(103,103,103);
 	transform: translateY(-120px);
