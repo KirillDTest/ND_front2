@@ -1,0 +1,62 @@
+include ../node_modules/bemto.pug/bemto.pug
+
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		link(rel="stylesheet", href="css/style.css")
+		title Document
+	body
+		.wrapper
+				+b.HEADER.header
+					+b.logo
+						+e.IMG.img(src="img/logo.png")
+					+e.box
+						+b.NAV.nav(class="_header")
+							+e.A.link(href="#") Home
+							+e.A.link(href="#") Portfolio
+							+e.A.link(href="#") Blog
+							+e.A.link(href="#") Contact
+						+b.search
+							+e.INPUT.input(class="_header" placeholder="search")
+					+b.slider
+						+e.item
+							+e.IMG.img(src="img/slide.png")
+				+b.MAIN.content
+					+b.list-article
+						+e.item
+							+e.IMG.img(src="img/article-1.png")
+							+e.P.text Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+							+e.A.link(class="_more" href="#") more...
+
+						+e.item
+							+e.IMG.img(src="img/article-2.png")
+							+e.P.text Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+							+e.A.link(class="_more" href="#") more...
+
+						+e.item
+							+e.IMG.img(src="img/article-3.png")
+							+e.P.text Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+							+e.A.link(class="_more" href="#") more...
+
+						+e.item
+							+e.IMG.img(src="img/article-4.png")
+							+e.P.text Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 
+							+e.A.link(class="_more" href="#") more...
+
+					+b.about
+						+e.box-img
+							+e.IMG.img(src="img/article-1.png")
+							+e.IMG.img(src="img/article-2.png")
+							+e.IMG.img(src="img/article-3.png")
+							+e.IMG.img(src="img/article-4.png")
+						+e.box-text
+							+e.H1.title Welcome to the site
+							+e.P.text Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer  Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer Duis autem vel Lorem ipsum Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, consectetuer 	Lorem ipsum dolor sit amet, uer uer Duis autem vel eum iriure Duis autemvel eum iriure dolor. ipsum dolor sit amet, sectetuer.
+							+e.A.link(class="_more" href="#") more...
+				+b.FOOTER.footer
+					+e.SPAN.text Terms of Service
+					+e.SPAN.text Privacy Policy
+					+e.SPAN.text © 2009  Designzzz (www.designzzz.com)

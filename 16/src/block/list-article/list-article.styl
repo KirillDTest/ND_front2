@@ -1,0 +1,41 @@
+.list-article
+	display: flex
+	justify-content: space-between
+	margin-bottom: 15px
+	&__item
+		display: flex
+		flex-direction: column
+		width: 224px
+		padding: 12px 12px 20px
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.75)
+		background-color: #ffffff
+		box-sizing: border-box
+	&__img
+		width: 200px
+	&__text
+		margin-bottom: 40px
+		text-indent: 2em
+		text-align: justify
+	&__link
+		align-self: flex-end
+		&:active
+		&:hover
+		&:visited
+		&:link
+			color: #000
+
+@media (max-width 992px)
+	.list-article
+		flex-wrap: wrap
+		&__item
+			width: 49%
+			display: flex
+			align-items: center
+			margin-bottom: 10px
+		&__link
+			align-self: auto
+			
+@media (max-width 576px)
+	.list-article
+		&__item
+			width: 100%

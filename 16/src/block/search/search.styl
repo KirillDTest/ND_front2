@@ -1,0 +1,31 @@
+.search
+	position: relative
+	&__input
+		height: 30px
+		width: 260px
+		border: 1px solid rgba(205, 205, 205, 0.38)
+		&::placeholder
+			padding-left: 15px
+			opacity: 0.19
+			color: #5b5b5b
+			font-size: 18px
+			font-style: italic
+			font-family: Rockwell
+	&::after
+		content: ""
+		background-image: url(../img/icon-search.png)
+		width: 27px;
+		height: 22px;
+		display: inline-block
+		position: absolute
+		right: 10px
+		top: 5px
+
+@media (max-width 768px)
+	.search
+		&__input
+			width: 210px
+
+@media (max-width 576px)
+	.search
+		margin: 20px 0 10px
