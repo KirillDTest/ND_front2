@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav nav_header"><input class="nav__checkbox-btn-burger" id="btn-nav_header" type="checkbox"/>
+            <label class="nav__label-btn-burger fa fa-bars" for="btn-nav_header">
+            </label>
+            <ul class="nav__list" id="nav_header">
+              <li class="nav__item"><a class="nav__link" href="#">ИНФОРМАЦИЯ</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">НОВОСТИ</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">ПРАЙС-ЛИСТ</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">МАГАЗИН</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav><a class="header__link header__link_enter fa fa-sign-out" href="#" id="btn-header_enter">Вход</a>
+        </div>
+      </header>
+      <div class="main container">
+        <section class="section section_advantages">
+          <div class="logo"><img class="logo__img" src="img/logo.png" alt="" role="presentation"/>
+          </div>
+          <div class="list-advantages">
+            <div class="list-advantages__item">
+              <div class="list-advantages__name">БЫСТРО
+              </div>
+              <div class="list-advantages__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+              </div>
+            </div>
+            <div class="list-advantages__item">
+              <div class="list-advantages__name">КРУТО
+              </div>
+              <div class="list-advantages__text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+              </div>
+            </div>
+            <div class="list-advantages__item">
+              <div class="list-advantages__name">ДОРОГО
+              </div>
+              <div class="list-advantages__text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section_about">
+          <div class="section__box section__box_news">
+            <h3 class="section__title">НОВОСТИ
+            </h3>
+            <div class="list-box list-box_about">
+              <div class="list-box__item">
+                <p class="list-box__text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+                </p><time class="list-box__date">11 января</time>
+              </div>
+              <div class="list-box__item">
+                <p class="list-box__text">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+                </p><time class="list-box__date">18 января</time>
+              </div>
+            </div>
+            <button class="btn">ВСЕ НОВОСТИ
+            </button>
+          </div>
+          <div class="section__box section__box_gallery">
+            <h3 class="section__title">ФОТОГАЛЕРЕЯ
+            </h3>
+            <div class="slider slider_about">
+              <div class="slider__item"><img class="slider__img" src="img/slide-1.png" alt="" role="presentation"/>
+              </div>
+              <button class="slider__btn btn">НАЗАД
+              </button>
+              <button class="slider__btn btn">ВПЕРЕД
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="section section_contacts">
+          <div class="section__box section__box_contacts-info">
+            <h3 class="section__title">КОНТАКТНАЯ ИНФОРМАЦИЯ
+            </h3>
+            <div class="list-box list-box_contacts">
+              <div class="list-box__item">БАРБЕРШОП «БОРОДИНСКИЙ <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН:<a class="list-box__link" href="tel:+74956660266">+7 (495) 666-02-66</a>
+              </div>
+            </div>
+            <div class="list-box list-box_contacts">
+              <div class="list-box__item">ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00
+              </div>
+            </div>
+          </div>
+          <div class="section__box section__box_callback">
+            <h3 class="section__title">ЗАПИСАТЬСЯ
+            </h3>
+            <div class="list-box list-box_callback">
+              <div class="list-box__item"> 
+                <div class="list-box__text">ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00
+                </div>
+              </div>
+            </div>
+            <form class="form form_callback"><input class="form__input-text form__input-text_date" name="date" placeholder="Дата" required="required" type="text"/><input class="form__input-text form__input-text_time" name="time" placeholder="Время" required="required" type="text"/><input class="form__input-text form__input-text_name" name="name" placeholder="Ваше имя" required="required" type="text"/><input class="form__input-text form__input-text_phone" name="phone" placeholder="Телефон" required="required" type="text"/><input class="form__input-btn form__input-btn_submit btn" type="submit" placeholder="Отправить"/>
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__col footer__col_1">
+            <div class="list-box list-box_callback">
+              <div class="list-box__item">БАРБЕРШОП «БОРОДИНСКИЙ» <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+              </div>
+              <div class="list-box__item"><a class="list-box__link list-box__link_map" href="#">КАК НАС НАЙТИ?</a>
+              </div>
+              <div class="list-box__item">ТЕЛЕФОН: <a class="list-box__link" href="tel:+74956660266">+7 (495) 666-02-66</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col footer__col_2">
+            <div class="footer__title footer__title_social">ДАВАЙТЕ ДРУЖИТЬ!
+            </div>
+            <div class="social-btn"><a class="social-btn__link fa fa-vk" href="#"></a><a class="social-btn__link fa fa-facebook" href="#"></a><a class="social-btn__link fa fa-instagram" href="#"></a>
+            </div>
+          </div>
+          <div class="footer__col footer__col_3">
+            <div class="footer__box footer__box_3">
+              <div class="footer__title footer__title_social">РАЗРАБОТАНО:
+              </div>
+              <button class="btn">htmlacademy.ru
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://use.fontawesome.com/be2e8d8d61.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.list-box
+	&__item
+		margin-bottom: 25px
+	&__date
+		text-transform: none
+		margin-top: 10px
+		
+.section__box_contacts-info
+	.list-box
+		&__link
+			&:hover, &:active, &:visited, &:link
+				color: #000000
+
+.footer
+	.list-box
+		&__item
+			margin-bottom: 0
+		&__link_map
+			position: relative
+			margin-bottom: 5px
+			&::after
+				content: ""
+				display: block
+				width: 100%
+				height: 2px
+				background: #595959
+				position: absolute
+				bottom: -2px
+
+
+@media #{$phone}
+	.list-box_contacts
+		text-align: center

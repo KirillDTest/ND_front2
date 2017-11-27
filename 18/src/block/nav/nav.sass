@@ -1,0 +1,34 @@
+.nav
+	display: inline-block
+	&__checkbox-btn-burger
+		display: none
+	&__label-btn-burger
+		color: #ffffff
+		font-size: 30px
+		display: none
+	&__list
+		display: flex
+		justify-content: space-around
+	&__item
+		padding-right: 40px
+
+@media #{$tablet}
+	.nav
+		position: fixed
+		left: 15px
+		z-index: 10
+		&__list
+			display: none
+			background-color: rgba(0, 0, 0, 0.3)
+		&__label-btn-burger
+			background-color: rgba(0, 0, 0, 0.3)
+			display: inline-block
+			padding: 5px 10px
+			cursor: pointer
+			&:checked
+				color: #FFE4E1
+	#btn-nav_header
+		&:checked ~ #nav_header
+			display: block
+			position: absolute
+			top: 40px

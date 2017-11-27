@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700')
+
+body
+	font-family: 'PT Sans', sans-serif
+	font-weight: 700
+	font-size: 14px
+	line-height: 24px
+	text-transform: uppercase
+
+a
+	&:link, &:active, &:hover, &:visited
+		text-decoration: none
+		color: #fff
+
+.wrapper
+	background: #000
+	background-image: url(../img/bg.png)
+	background-color: #000
+	background-position: 50% 0
+	background-repeat: no-repeat
+
+.container
+	margin: 0 auto
+	max-width: 940px
+
+@media #{$tablet}
+	.container
+		padding: 0 10px

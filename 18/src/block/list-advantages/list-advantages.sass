@@ -1,0 +1,28 @@
+.list-advantages
+	display: flex
+	justify-content: space-between
+	color: #fff
+	margin-bottom: 80px
+	&__item
+		text-align: center
+		flex-direction: column
+		width: 270px
+	&__name
+		font-size: 30px
+		&::after
+			content: ""
+			display: block
+			height: 28px
+			width: 28px
+			transform: rotate(45deg)
+			background: #fff
+			margin: 20px auto 30px
+
+@media #{$phone}
+	.list-advantages
+		&__text
+			display: none
+		&__name
+			font-size: 25px
+			&::after
+				display: none

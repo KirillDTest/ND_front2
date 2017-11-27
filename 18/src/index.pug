@@ -1,0 +1,113 @@
+include ../node_modules/bemto.pug/bemto.pug
+
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+	body
+		.wrapper
+			+b.HEADER.header
+				.container
+					+b.NAV.nav(class="_header")
+						+e.INPUT.checkbox-btn-burger(id="btn-nav_header" type="checkbox")
+						+e.label-btn-burger.LABEL(for="btn-nav_header" class="fa fa-bars")
+						+e.UL.list#nav_header
+							+e.LI.item
+								+e.A.link(href="#") ИНФОРМАЦИЯ
+							+e.LI.item
+								+e.A.link(href="#") НОВОСТИ
+							+e.LI.item
+								+e.A.link(href="#") ПРАЙС-ЛИСТ
+							+e.LI.item
+								+e.A.link(href="#") МАГАЗИН
+							+e.LI.item
+								+e.A.link(href="#") КОНТАКТЫ
+
+					+e.A.link(href="#" class="_enter fa fa-sign-out" id="btn-header_enter") Вход
+
+			+b.main.container
+				+b.SECTION.section(class="_advantages")
+					+b.logo
+						+e.IMG.img(src="img/logo.png")
+					
+					+b.list-advantages
+						+e.item
+							+e.name БЫСТРО
+							+e.text МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+						+e.item
+							+e.name КРУТО
+							+e.text ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+						+e.item
+							+e.name ДОРОГО
+							+e.text НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+
+				+b.SECTION.section(class="_about")
+					+e.box_news
+						+e.H3.title НОВОСТИ
+						+b.list-box(class="_about")
+							+e.item
+								+e.P.text НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+								+e.TIME.date 11 января
+							+e.item
+								+e.P.text В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+								+e.TIME.date 18 января
+						+b.BUTTON.btn ВСЕ НОВОСТИ
+
+					+e.box_gallery
+						+e.H3.title ФОТОГАЛЕРЕЯ
+						+b.slider(class="_about")
+							+e.item
+								+e.IMG.img(src="img/slide-1.png")
+							+e.BUTTON.btn(class="btn") НАЗАД
+							+e.BUTTON.btn(class="btn") ВПЕРЕД
+
+				+b.SECTION.section(class="_contacts")
+					+e.box_contacts-info
+						+e.H3.title КОНТАКТНАЯ ИНФОРМАЦИЯ
+						+b.list-box(class="_contacts")
+							+e.item БАРБЕРШОП «БОРОДИНСКИЙ <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН:
+								+e.A.link(href="tel:+74956660266") +7 (495) 666-02-66
+
+						+b.list-box(class="_contacts")
+							+e.item ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00
+
+					+e.box_callback
+						+e.H3.title ЗАПИСАТЬСЯ
+						+b.list-box(class="_callback")
+							+e.item 
+								+e.text ВРЕМЯ РАБОТЫ: <br> ПН — ПТ: С 10:00 ДО 22:00 <br> СБ — ВС: С 10:00 ДО 19:00
+						+b.FORM.form(class="_callback")
+							+e.INPUT.input-text(class="_date" name="date" placeholder="Дата" required)
+							+e.INPUT.input-text(class="_time" name="time" placeholder="Время" required)
+							+e.INPUT.input-text(class="_name" name="name" placeholder="Ваше имя" required)
+							+e.INPUT.input-text(class="_phone" name="phone" placeholder="Телефон" required)
+							+e.INPUT.input-btn(class="_submit btn" type="submit" placeholder="Отправить")
+
+			+b.FOOTER.footer
+				.container
+					+e.col_1
+						+b.list-box(class="_callback")
+							+e.item БАРБЕРШОП «БОРОДИНСКИЙ» <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+							+e.item
+								+e.A.link(class="_map" href="#") КАК НАС НАЙТИ?
+							+e.item ТЕЛЕФОН: 
+								+e.A.link(href="tel:+74956660266") +7 (495) 666-02-66
+
+					+e.col_2
+						+e.title(class="_social") ДАВАЙТЕ ДРУЖИТЬ!
+						+b.social-btn
+							+e.A.link(href="#" class="fa fa-vk")
+							+e.A.link(href="#" class="fa fa-facebook")
+							+e.A.link(href="#" class="fa fa-instagram")
+
+					+e.col_3
+						+e.box_3
+							+e.title(class="_social") РАЗРАБОТАНО:
+							+b.BUTTON.btn htmlacademy.ru
+
+		link(rel="stylesheet", href="css/style.css")
+		script(src="https://use.fontawesome.com/be2e8d8d61.js")
+		script(src="js/app.js")

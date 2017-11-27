@@ -1,0 +1,48 @@
+.section
+	&__box
+		min-width: 50%
+		box-sizing: border-box
+		padding: 50px 80px
+		position: relative
+	&__box:first-child::after
+		content: ""
+		display: block
+		background-image: url('../img/line-section-box.png')
+		height: 278px
+		width: 8px
+		position: absolute
+		right: -4px
+		top: 50%
+		margin-top: -139px
+	&__title
+		font-size: 30px
+		margin-bottom: 30px
+		text-align: center
+	&_about,
+		margin-bottom: 35px
+	&_contacts
+		margin-bottom: 70px
+	&_about,
+	&_contacts
+		display: flex
+		background-image: url('../img/bg-section.png')
+
+@media #{$tablet}
+	.section
+		&__box
+			padding: 10px 20px
+
+@media #{$phone}
+	.section
+		display: flex
+		flex-direction: column
+		&__box
+			min-width: 100%
+			display: flex
+			flex-direction: column
+			align-items: center
+			&:first-child::after
+				transform: rotate(90deg)
+				right: 50%
+				top: 100%
+				bottom: 0

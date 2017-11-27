@@ -1,0 +1,22 @@
+.form
+	display: flex
+	flex-wrap: wrap
+	max-width: 300px
+	justify-content: space-between
+	&__input-text
+		height: 40px
+		width: 140px
+		border: 2px solid #000000
+		margin-bottom: 20px
+		&::placeholder
+			color: #000000
+			font-size: 14px
+			font-weight: 700
+			padding-left: 10px
+	&__input-btn
+		width: 100%
+
+@media #{$phone}
+	.form
+		&__input-text
+			width: 100%
