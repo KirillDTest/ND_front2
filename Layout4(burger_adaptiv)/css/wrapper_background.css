@@ -1,0 +1,23 @@
+.background {
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: black;
+	width: 100%;
+	height: 1716px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.wrapper {
+	max-width: 940px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
