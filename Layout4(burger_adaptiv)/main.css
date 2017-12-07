@@ -1,6 +1,7 @@
 @import url("css/wrapper_background.css");
 @import url("css/header_nav.css");
 @import url("css/section.css");
+@import url("css/footer.css");
 
 * {
 	margin: 0;
@@ -8,3 +9,8 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
+@media screen and (max-width: px) {
+	.wrapper {
+		min-width: 720px;
+	}
+}

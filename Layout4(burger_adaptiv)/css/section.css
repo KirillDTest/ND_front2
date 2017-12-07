@@ -12,6 +12,7 @@ section {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 /*****Logo****/
@@ -64,7 +65,7 @@ section {
 /****article****/
 
 .article {
-	width: 940px;
+	width: 100%;
 	height: 419px;
 	display: flex;
 	background-image: url("../img/article-background.png");
@@ -142,4 +143,41 @@ section {
 
 .article__button-box .article__button:first-child {
 	margin-right: 20px;
+}
+
+.article__form {
+	width: 300px;
+	height: 169px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.article__form input {
+	width: 140px;
+	height: 43px;
+	background-color: rgb(249,246,243);
+	border: 2px solid  rgb(0,0,1);
+	text-indent: 17px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+::-webkit-input-placeholder {
+	color: rgb(0,0,0);
+}
+
+ .article__form .article__form-button {
+	width: 300px;
+	height: 43px;
+	text-indent: 0;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+.article__form .article__form-button:hover {
+	opacity: 0.5;
 }

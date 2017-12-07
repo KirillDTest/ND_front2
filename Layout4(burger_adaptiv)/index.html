@@ -2,6 +2,7 @@
 <html lang="en">
 	<head> 
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Burger_adaptive</title>
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<script src="https://use.fontawesome.com/1a084f2b71.js"></script>
@@ -11,6 +12,8 @@
 			<header>
 				<div class="wrapper">
 					<nav class="navigation">
+						<input type="checkbox" id="burger">
+						<label for="burger" class="fa fa-bars"></label>
 						<div class="nav">
 							<div class="nav__item">Информация</div>
 							<div class="nav__item">Новости</div>
@@ -125,13 +128,43 @@
 											<input type="text" name="time" placeholder= "ВРЕМЯ">
 											<input type="text" name="first-name" placeholder="ВАШЕ ИМЯ">
 											<input type="text" name="last-name" placeholder="ТЕЛЕФОН">
-											<input type="submit">
+											<input class="article__form-button" type="submit" value="ОТПРАВИТЬ">
 										</form>
 								</div>
 						</article>
 					</section>
 				</div>
 			</main>
+			<footer>
+				<div class="wrapper">
+					<div class="footer-block">
+						<div class="footer-block__address">
+							БАРБЕРШОП «БОРОДИНСКИЙ»
+							АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+							<span>КАК НАС НАЙТИ?</span>
+							ТЕЛЕФОН: +7 (495) 666-02-66
+						</div>
+						<div class="footer-block__network">
+							<div class="footer-block__text">ДАВАЙТЕ ДРУЖИТЬ!</div>
+							<div class="footer-block__item item1">
+								<a href="#"></a>
+							</div>
+							<div class="footer-block__item item2">
+								<a href="#"></a>
+							</div>
+							<div class="footer-block__item item3">
+								<a href="#"></a>
+							</div>
+						</div>
+						<div class="footer-block__developer footer-block__network">
+							<div class="footer-block__text">РАЗРАБОТАНО:</div>
+							<div class="article__button">
+								<a href="#">HTMLACADEMY.RU</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>	
