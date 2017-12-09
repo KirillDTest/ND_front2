@@ -15,3 +15,12 @@ for(i=0, j=arr.length; i<j; i++){
 };
 console.log(arr);
 console.log("///////");
+
+var sum= 0;
+for(i=0, j=arr.length; i<j; i++){
+	if(arr[i]==1){
+		sum++
+	}
+}
+console.log(sum);
+console.log("///////");
