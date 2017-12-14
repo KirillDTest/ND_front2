@@ -9,6 +9,7 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	color: rgb(255,255,255);
 	font-size: 16px;
 	font-weight: 700;
@@ -19,6 +20,7 @@ header {
 .nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .nav__item {
@@ -35,10 +37,20 @@ header {
 
 .entry__text {
 	margin: 0 22px 0 14px;
+	cursor: pointer;
 }
 
 .entry__icon .fa-sign-in {
 	opacity: 0.3;
 	font-size: 20px;
+}
+
+#burger {
+	display: none;
+}
+
+[for="burger"] {
+	font-size: 30px;
+	display: none;
 }
 
