@@ -10,6 +10,8 @@ console.log(Bicycle(20,1,2));
 console.log('///////////////');
 
 
+
+
 var Triagle = function(a,b,c) {
 	if ( (a+b)<=c || (b+c)<=a || (a+c)<=b ) {
 		return 'Triagle does not exists'
@@ -21,3 +23,4 @@ var Triagle = function(a,b,c) {
 
 console.log(Triagle(3,4,5));
 console.log(Triagle(1,2,4));
+
