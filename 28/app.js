@@ -32,6 +32,26 @@ var funSort= ( arr, i= 0 )=>{
 		return arr;
 }
 
+
+
+
+
+for(; arr.length > i; i++){
+	console.log( arr[i]);
+}
+
+var i= 0;
+var arr5= [111, 222, 333]
+while( arr5.lenght > i){
+	i++;
+	console.log(arr5[i])
+}
+
+
+
+
+
+
 console.log( funSort( arr2 ) );
 
 
