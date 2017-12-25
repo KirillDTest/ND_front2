@@ -1,8 +1,8 @@
-var str= '-lol!';
+var str= '-Lol!';
 
 var funPolindrom= ( str )=>{
 	var strRevers= '';
-	str= str.replace(/[^A-zА-я0-9]/g, '');
+	str= str.replace(/[^A-zА-я0-9]/g, '').toLowerCase();
 	for(var i= str.length - 1; i >= 0; i-- ){
 		strRevers= strRevers + str[i];
 	}
