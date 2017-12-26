@@ -4,3 +4,4 @@ var RotateString= function(string, k){
 }
 console.log(RotateString('forwhomthebelltolls',3));
 console.log(RotateString('verycomplexnumber',-6));
+
