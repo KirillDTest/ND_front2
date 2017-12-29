@@ -30,6 +30,34 @@ arr.join('');
 arr.reverse();
 
 
+Методы массивов:
+добавить элемент/элементы в конец массива: push()
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+убрать элемент в конце массива: pop()
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+
+------------------
+
+добавить элемент/элементы в начало массива: unshift();
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+
+убрать элемент в начале массива: shift()
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+
+
+-------------------
+
+удалить из массива с указанного индекса определённое количество значений: splice();
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+метод slice() для массивов, а не для строк:
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+Сравните различие slice и splice. 
+slice копирует значения и создаёт новый массив из скопированных элементов (и возвращает массив). (аналог ctrl-c)
+splice удаляет значения из массива и возвращает массив, состоящий из удалённых элементов. Более того, у splice есть третий аргумент, который может заполнить удалённый участок этим третьим аргументом.
+
 
 // Строки
 var myStr= 'Строка 1 Строка 2';
