@@ -1,16 +1,16 @@
 function Palindromes (string) {
-	string=string.replace(/[^A-zА-я]/g, '').toLowerCase();
+	var stringReplase=string.replace(/[^A-zА-я]/g, '').toLowerCase();
 	var stringReverse='';
 
-	for (var i=string.length-1; i>=0; i--) {
-		stringReverse=stringReverse + string[i];
+	for (var i=stringReplase.length-1; i>=0; i--) {
+		stringReverse=stringReverse + stringReplase[i];
 	}
 
-	if (string==stringReverse) {
-			return 'yes';
+	if (stringReplase==stringReverse) {
+			return ['yes', string];
 	} 
 	else {
-		return  'no';
+		return  ['no', arguments];
 	}
 
 }
