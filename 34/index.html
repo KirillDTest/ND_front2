@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		html,
+		body{
+			position: relative;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#clo{
+			cursor: pointer;
+		}
+		#modal{
+			background: rgba(0, 0, 0, 0.1);
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			display: none;
+			z-index: 2;
+		}
+		#message{
+			width: 500px;
+			height: 200px;
+			background: red;
+			display: none;
+			position: fixed;
+			z-index: 3;
+		}
+		.visible{
+			display: flex !important;
+		}
+	</style>
+	<button id="btn">Кнопка</button>
+	<div id="modal">
+	</div>
+	<div id="message">
+			<span id="clo">х</span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, asperiores.
+			</p>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
