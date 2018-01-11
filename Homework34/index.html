@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<div class="shadow"></div>
+		<div class="buttonOn"></div>
+		<div class="block">
+				<div class="buttonOff"></div>
+		</div>
+
+		<script type="text/javascript">
+
+			var myButtonOn= document.querySelector('.buttonOn'),
+				myButtonOff= document.querySelector('.buttonOff'),
+				myBlock= document.querySelector('.block'),
+				myShadow= document.querySelector('.shadow');
+
+			myButtonOn.addEventListener('click', function(event){
+				myShadow.classList.add('visible');
+				myBlock.classList.add('visible');
+			});
+
+			myButtonOff.addEventListener('click', function(event){
+				myShadow.classList.remove('visible');
+				myBlock.classList.remove('visible');
+			})
+
+			myShadow.addEventListener('click', function(e){
+				myShadow.classList.remove('visible');
+				myBlock.classList.remove('visible');
+			})
+
+		</script>
+	</body>
+</html>	
