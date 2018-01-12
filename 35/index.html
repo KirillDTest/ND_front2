@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		#regulator{
+			width: 300px;
+			height: 20px;
+			background: rgba(0, 0, 0, 0.2);
+			margin: 100px auto;
+		}
+		#toggle{
+			width: 20px;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.8);
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+		#progress{
+			text-align: center;
+			font-size: 25px;
+		}
+	</style>
+	<div id="progress"></div>
+	<div id="regulator">
+		<div id="toggle"></div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
