@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		link(rel='stylesheet' href='style/main.css')
+	body
+		include header.jade
+		div.content
+			block contentJade
+				a(href='page 1.html') page 1
+				a(href='page 2.html') page 2 
+				a(href='page 3.html') page 3
+				a(href='page 4.html') page 4
+		include footer.jade
+				
