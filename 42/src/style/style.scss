@@ -1,0 +1,40 @@
+footer, header{
+	background: red;
+	height: 200px;
+}
+
+.list{
+	display: flex;
+	justify-content: space-around;
+
+	&__item{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	&__img{
+		height: 200px;
+	}
+	
+	&__price{
+		font-weight: 700;
+	}
+	
+	span{
+		text-align: center;
+	}
+
+	button{
+		width: 100%;
+	}
+}
+
+.page{
+	.list{
+		&__img{
+			height: 400px;
+		}
+	}
+}
+

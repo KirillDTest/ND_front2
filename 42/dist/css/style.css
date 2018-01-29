@@ -1,0 +1,22 @@
+footer, header {
+  background: red;
+  height: 200px; }
+
+.list {
+  display: flex;
+  justify-content: space-around; }
+  .list__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .list__img {
+    height: 200px; }
+  .list__price {
+    font-weight: 700; }
+  .list span {
+    text-align: center; }
+  .list button {
+    width: 100%; }
+
+.page .list__img {
+  height: 400px; }

@@ -1,0 +1,14 @@
+extends template
+block content
+	.page
+		.list
+			each v, i in items
+				if v.id == 3
+					.list__item
+						.img-box
+							img.list__img(src=v.img, alt="")
+						span.list__name= v.name
+						span.list__desc= v.desc
+						span.list__price= v.price
+						a(href= v.id + '.html' )
+							button Buy
