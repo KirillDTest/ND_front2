@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		link(rel='stylesheet' href='style/main.css')
+	body
+		p= 'PRONTO'
+		p AMIGO
+		- console.log('hello console')
+		- console.log('2+3')
+
+		script.
+			console.log('hello browser')
+			console.log('and again')
+		p.
+			 Lorem ipsum dolor sit amet, consectetur 
+			 adipisicing elit. Dolore eos sequi facilis 
+			 ipsa velit eaque deserunt id necessitatibus 
+			 fuga, nesciunt? #[strong End of lorem]
+		- var myvar = 'this is my variable'
+		p.
+			 Lorem ipsum dolor sit amet, consectetur
+			 adipisicing elit. Aliquid harum accusamus,
+			 ratione. Debitis sed suscipit sapiente
+			 in odit quasi dolores.
+			 #[strong #{myvar}]
+		

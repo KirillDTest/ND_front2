@@ -1,0 +1,11 @@
+extends template.jade
+block contentJade
+	.item-container
+		each v in items
+			if v.name == 'USA cap'
+				img(src=v.img)
+				p.item-name=v.name
+				p.item-desc=v.desc
+				p.item-price=v.price
+				a.item-price(href='index.html') Go back to store
+				button buy

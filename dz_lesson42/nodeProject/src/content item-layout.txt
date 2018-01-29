@@ -1,0 +1,6 @@
+div.item-container
+	img(src=v.img)
+	p.item-name=v.name
+	p.item-desc=v.desc
+	p.item-price=v.price
+	button buy
