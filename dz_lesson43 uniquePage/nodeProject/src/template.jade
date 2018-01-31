@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		link(rel='stylesheet' href='style/store.css')
+		- var items=[{id:'1', img:'img/cap1.jpg', name:'red cap', desc:'awesome cap', price:'$49', Go:'1.html'}, {id:'2', img:'img/cap2.jpg', name:'black cap', desc:' another awesome cap', price:'$59', Go:'2.html'}, {id:'3', img:'img/cap3.jpg', name:'USA cap', desc:'BEST CAP EVER MADE', price:'$499', Go:'3.html'}]
+	body
+		include includes/header.jade
+		div.content 
+			block contentJade
+
+		include includes/footer.jade

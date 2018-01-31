@@ -1,0 +1,15 @@
+extends template.jade
+include includes/header.jade
+	header
+		append headerBlock
+				each v in items
+					if v.id == '1' 
+						p.item-name=v.me
+						p.item-desc=v.desc
+						p.item-price=v.price
+block contentJade
+	.item-container
+		each v in items
+			if v.id == 2
+				include page-0.jade
+				

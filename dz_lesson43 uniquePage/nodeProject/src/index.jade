@@ -1,0 +1,10 @@
+extends template.jade
+block contentJade
+	each v in items
+		div.item-container
+			img(src=v.img)
+			p.item-name=v.name
+			p.item-desc=v.desc
+			p.item-price=v.price
+			a.item-Go(href=v.Go) Go
+			button buy
